@@ -1,0 +1,2 @@
+#!/binbash
+ls -u --indicator-style=slash | paste -sd,

@@ -1,0 +1,11 @@
+package piscine
+
+func ShoppingListSort(slice []string) {
+	for i := 0; i < len(slice); i++ {
+		for j := i + 1; j < len(slice); j++ {
+			if slice[i] > slice[j] {
+				slice[i], slice[j] = slice[j], slice[i]
+			}
+		}
+	}
+}
